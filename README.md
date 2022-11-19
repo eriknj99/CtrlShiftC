@@ -6,3 +6,9 @@ Most terminal emulators use Ctrl+Shift+C to copy text. I've gotten used to this 
 
 # Can I change the shortcut to something else?
 No.
+
+# Packaging
+
+(Note to self)
+
+See https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/ for information on building a release
