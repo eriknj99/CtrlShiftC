@@ -1,0 +1,19 @@
+{
+
+  "description": "Remaps Ctrl+Shift+C to copy instead of DevTools",
+  "manifest_version": 2,
+  "name": "CtrlShiftC",
+  "version": "1.0",
+  "homepage_url": "https://github.com/eriknj99/CtrlShiftC",
+  "icons": {
+    "48": "icons/csc-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["CtrlShiftC.js"]
+    }
+  ]
+
+}
